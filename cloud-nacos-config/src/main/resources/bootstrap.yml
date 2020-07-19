@@ -1,0 +1,13 @@
+server:
+  port: 3347
+
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+        namespace: db566f53-a5c6-434b-ba5e-37c1ccacd027
+  application:
+    name:  client-config-server
